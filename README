@@ -1,0 +1,9 @@
+#Before compiling the tex file, install the following packages.
+
+sudo apt-get install aptitude
+
+sudo aptitude install texlive-fonts-recommended texlive-latex-recommended texlive-latex-recommended-doc_ texlive-pictures-doc_ texlive-latex-base-doc_ texlive-pstricks-doc_ texlive-latex-extra texlive-latex-extra-doc_ texlive-fonts-recommended-doc_
+
+#Now create the PDF using the below command.
+
+pdflatex PradeepKashyapResume.tex
