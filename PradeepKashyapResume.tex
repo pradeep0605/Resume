@@ -1,0 +1,364 @@
+\documentclass[a4paper, 10pt]{extarticle}
+%\documentclass[10pt]{}
+\usepackage[top=0.2in, bottom=0.3in, left=0.3in, right=0.3in]{geometry}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage[singlespacing]{setspace}
+
+\hypersetup{ colorlinks, citecolor=green, filecolor=black, linkcolor=blue,
+urlcolor=blue }
+\author{Pradeep Kashyap Ramaswamy}
+\date{December 2016}
+
+\begin{document}
+
+
+{\begin{center}
+%Keeping the header in font size 10 which is normalsize.
+\begin{tabular}{l c r}
+    % \hline
+    pradeep.kashyap@wisc.edu  & \multirow{3}{*}{\LARGE{\textbf{ Pradeep Kashyap
+Ramaswamy}}} & \ \ \ \ \ \ +1 (608) 504 1096 \\
+     2110 University Ave, Apt 409 & &
+\href{https://www.linkedin.com/in/pradeep-kashyap-ramaswamy}{LinkedIn} \\
+     Madison, WI -- 53726 & & \href{https://github.com/pradeep0605}{GitHub}\\
+     %\hline
+\end{tabular}
+\end{center}}
+
+
+\begin{flushleft}
+{\LARGE{\textbf{E}}\Large{\textbf{DUCATION}}}
+\end{flushleft}
+\vspace{-0.2cm}\hrule \vspace{.1cm}
+
+% Keeping the entire document in large font.
+\begin{large}
+
+%Master's degree.
+{\begin{tabular}{ p{3cm} p{10cm} p{4.4cm} }
+    %\hline
+    \textbf{Madison, WI} & \vspace{-.6cm} \begin{center}\textbf{{University of
+Wisconsin---Madison}} \end{center} \vspace{-0.8cm} &
+    \vspace{-0.6cm}
+    \begin{flushright}
+    \textbf{Sept 2016 - Dec 2017} 
+    \end{flushright}
+    \vspace{-0.8cm}\\
+        \hline
+\end{tabular}}
+\vspace{-0.2cm}
+\begin{itemize}
+    \item {\textbf{Master of Science} in \textit{Computer Science}, GPA:
+\textbf{4.0 / 4.0}}
+    \vspace{-.2cm}
+    \item{\textbf{Courses}: OS, Topics in DBMS,  Advanced--OS, Algorithms, Data
+Science.}
+\end{itemize}
+
+%Bachelor's degree.
+\hrule
+\vspace{.1cm}
+{\begin{tabular}{ p{3cm} p{10cm} p{4.4cm} }
+    %\hline
+    \textbf{Mysore, India} & \vspace{-.6cm} \begin{center}\textbf{{Sri
+Jaychamarajendra College of Engineering}} \end{center} \vspace{-0.8cm} &
+    \vspace{-0.6cm}
+    \begin{flushright}
+    \textbf{Aug 2010 - May 2013} 
+    \end{flushright}
+    \vspace{-0.7cm} \\
+    \hline
+\end{tabular}}
+\vspace{-0.2cm}
+\begin{itemize}
+    \item {\textbf{Bachelor of Science} in \textit{Computer Science}, GPA:
+\textbf{9.49 / 10}}
+    \vspace{-.2cm}
+    \item{\textbf{Courses}: Data Structures, Digital Design,  Computer
+Organization \& Architecture, OOP, Software Engineering, Algorithms, Graph
+theory, Compilers, Finite Automata, OS, Networks-- I \& II, Graphics.}
+\end{itemize}
+\vspace{.2cm}
+%=================End of Education section ================
+{\LARGE{\textbf{E}}\Large{\textbf{MPLOYMENT}}}
+\vspace{.1cm} \hrule \vspace{.1cm}
+{\begin{tabular}{ p{6cm} p{5cm} p{6.5cm} }
+    %\hline
+    \textbf{R\&D Engineer Software--I} & \vspace{-.6cm}
+\begin{center}\textbf{{Broadcom}} \end{center} \vspace{-0.8cm} & 
+    \vspace{-0.7cm} 
+    \begin{flushright} \textbf{July 2013 - Aug 2016} \end{flushright} 
+    \vspace{-0.8cm}\\
+    \hline
+\end{tabular}}
+\vspace{0.3cm} \\
+I worked as Firmware Engineer on BRCM Wifi chipsets and as Linux driver
+developer on MIPI-DSI compliant display unit. My responsibilities included
+feature development, bug fixing and productization  of chipsets.
+\vspace{-0.1cm}
+\begin{itemize}
+    \item{Developed new features and fixed bugs for productization  of BRCM
+mobile display units.}
+    \vspace{-.2cm}
+    \item{Implemented and productized multiple VSDB algorithms (VSDB--Virtual
+Simultaneous Dual Band--enables multiple wireless host interfaces on a single
+hardware) on 4358 and 4359 WiFi chipsets.}
+    \vspace{-.2cm}
+    \item{Bring up of VSDB in 43201 low-power chip, from ground up.  Ownership
+of MSCH (Multi-Channel Scheduler) and VSDB algorithms in 43012. Implemented VSDB
+Soft-AP+STA, VSDB-RSDB (Real SDB) Mode-Switch and ASDB (Adaptive SDB) algorithms
+from ground up.}
+    \vspace{-.2cm}
+    \item{Implemented Auto-SHM (Shared Mem) feature by converting configuration
+values hard-coded in macros to structure members to avoid ROM abandons. Python
+Scripts.}
+    \vspace{-0.2cm}
+\end{itemize}
+
+\vspace{.2cm}
+%=================End of Employment section ================
+\begin{flushleft}
+{\LARGE{\textbf{P}}\Large{\textbf{ROJECTS}}}
+\end{flushleft}
+\vspace{-0.2cm}\hrule %\vspace{.1cm}
+
+\begin{itemize}
+    \item{\textbf{Spark vs. Heron: Streaming
+Benchmark}|\href{https://github.com/rdamkondwar/Streaming-Benchmark}{GitHub}|10/2016
+to 12/2016\textbf{{\Large{:}}} A benchmarking suite to compare the performance
+of  stream processing systems. Project concluded in results demonstrating Heron
+performing better than Spark. \textbf{Java}. Under the guidance of Prof.
+\href{http://pages.cs.wisc.edu/~jignesh/}{Jignesh M. Patel.}}
+    \vspace{-.1cm}
+    
+    \item{\textbf{Operating System Projects} in XV6
+kernel|\href{https://github.com/pradeep0605/CS537-IntroToOS}{GitHub}|09/2016 to
+12/2016\textbf{{\Large{:}}}
+\href{https://github.com/pradeep0605/CS537-IntroToOS/tree/master/Project2b}{1)}
+Multi-level Feedback Queue Scheduler.
+\href{https://github.com/pradeep0605/CS537-IntroToOS-Project2a}{2)} Bash-like
+Shell implementation
+\href{https://github.com/pradeep0605/CS537-IntroToOS-Project3b}{3)} Shared Pages
+support in kernel.
+\href{https://github.com/pradeep0605/CS537-IntroToOS/tree/master/Project4b}{4)}
+Kernel thread support
+\href{https://github.com/pradeep0605/CS537-IntroToOS/tree/master/Project5a}{5)}
+File System checker
+\href{https://github.com/pradeep0605/CS537-IntroToOS/tree/master/Project5b}{6)}
+Checksum protected file support. \textbf{C}.}
+    \vspace{-.1cm}
+    
+    \item{\textbf{Sudoku
+solver}|\href{https://github.com/pradeep0605/Sudoku_Solver}{GitHub}|04/2013\textbf{{\Large{:}}}
+Set-Operations ({$\cup$}, {$\cap$}, {$\setminus$})  based approach to solve
+Sudoku puzzles. With $n$ empty cells and $d X d$ grid (9x9 generally), recursive
+backtracking algorithm takes  $O(d^n)$ time. My algorithm took $((n^2 + n) / 2)
+* 6d$ \ $\Longrightarrow$ \ $O(n^2 *d)$ time. \textbf{C++, Java}.}  
+    \vspace{-.1cm}
+    
+    \item{\textbf{Basic SIC Assembler and
+Simulator}|\href{https://github.com/pradeep0605/SIC_assembler_and_simulator}{GitHub}|10/2011
+to 11/2011\textbf{{\Large{:}}} This project provides basic environment to run
+the hypothetical SIC (Simplified Instructional Computer) programs.
+\textbf{C++}.} 
+    \vspace{-.1cm}
+    
+     \item{\textbf{Four Phased Image
+Compression}|\href{https://github.com/pradeep0605/FourPhasedImageCompressor}{GitHub}|06/2011
+to 08/2011\textbf{{\Large{:}}} An Image (24-bit depth, RGB Image) compression
+tool which uses four pipelined stages from Compression: Aggregation, Bit
+Truncation, RLE and Huffman Coding. Compression of 84.37 \% upto 99\% was
+achieved. \textbf{C++}.} 
+    \vspace{-.1cm}
+    
+    \item{\textbf{Remote System Tracker and
+Controller}|\href{https://github.com/pradeep0605/RemoteSystemTrackerAndController}{GitHub}|11/2009
+to 02/2010\textbf{{\Large{:}}} A monitoring application which tracks the
+activities and controls computers in LAN. Features include screen capture, file
+transfer and remote login. \textbf{Java}.} 
+    \vspace{-.1cm}
+    
+\end{itemize}
+\vspace{.1cm}
+%=================End of Project section ================
+\vspace{-0.2cm}
+\begin{flushleft}
+{\LARGE{\textbf{S}}\Large{\textbf{KILLS}}}
+\end{flushleft}
+
+\vspace{-.2cm} \hrule \vspace{-.1cm}
+%On a scale of 0 to 10, \textbf{\underline{B}}eginner:1-3, Prior Experience:4-5,
+%Proficient:6-7, Expert:8-10
+
+\begin{itemize}
+    \item{\textbf{Languages}: C, C++, Java, Python, Shell Scripting.}
+    \vspace{-.1cm}
+    \item{\textbf{Technology and Software}: GDB, MySQL, HTML \& CSS, SVN/Git,
+Wireshark, gnuplot, dotty, ctags, cscope, Java Servlets, \LaTeX{}.}
+    \vspace{-.1cm}
+    \item{\textbf{Operating Systems}: Unix variants, Windows.}
+    %\item{\textbf{Expert}: C.}
+    %\vspace{-.1cm}
+    %\item{\textbf{Proficient}: Java, Algorithms, Data Structures, , Linux,
+    %Windows.}
+    %\vspace{-.1cm}
+    %\item{\textbf{Prior Experience}: C++, Python, VB, GDB, MySQL, HTML \& CSS,
+    %SVN/Git, Wireshark, gnuplot, dotty, ctags, cscope, Java Servlets, \LaTeX.}
+    %\vspace{-.1cm}
+\end{itemize}
+
+ \vspace{0.6cm}\hrule \vspace{-.2cm}
+ \begin{center}
+ \tiny{-- End of Resume --}
+\end{center}
+
+%%====================== END OF RESUME ==========================
+
+\newpage
+
+% ==================Additional Information Page =================
+\begin{center}
+ \large{\textit{This page contains additional information about me that are not
+essential part of the resume.}}
+\end{center}
+\vspace{.2cm}
+\begin{flushleft}
+{\LARGE{\textbf{A}}\Large{\textbf{WARDS}} \large{AND}
+\LARGE{\textbf{A}}\Large{\textbf{CHIEVEMENTS}}}
+\end{flushleft}
+\vspace{-.2cm} \hrule \vspace{-.1cm}
+\begin{itemize}
+    \item{Secured $10^{th}$ rank in Bachelor's CET (Common Entrance Test) among
+50,000 students (top 0.02 \%).}
+    \vspace{-.1cm}
+    
+    \item{Awarded \textbf{twice} with \textit{``Award of Recognition''} in
+Broadcom for the contributions towards VSDB \& RSDB for 4358 \& 4359 chipsets
+and, Ownership of ASDB for 4359 chipset.}
+    \vspace{-.1cm}
+    
+    \item{Awarded with ``FedEx International Scholar of the Year 2016''
+Scholarship, Mumbai.
+\href{https://www.linkedin.com/pulse/bangalore-student-wins-fedex-scholarship-edu-beanz}{News
+link}.}
+    \vspace{-.1cm}
+    
+    \item{Secured \textbf{First} Prize in the following competitions.
+        \vspace{-.2cm}
+        \begin{itemize}
+            \item{``Puzzle the Unpuzzled'' at IISc by Department of CSA,
+Bangalore, Mar 2012.}
+            %\vspace{-.1cm}
+            
+            \item{``Top Coders'' at AIT, Coimbatore, by Department of CS, Sept
+2012.}
+            %\vspace{-.1cm}
+            
+            \item{C--coding conducted during Cyberia'12 by IEEE SJCE.}
+            %\vspace{-.1cm}
+            
+            \item{Night out C-coding contest conducted during Cyberia'12 by IEEE
+SJCE.}
+            %\vspace{-.1cm}
+            
+            \item{C--coding conducted during FOSSCamp'11 by GNU/Linux Campus
+Club (LCC) SJCE.}
+            %\vspace{-.1cm}
+            
+            \item{GLDB (GNU Linux Debugging) conducted during FOSSCamp`12 by LCC
+SJCE.}
+            %\vspace{-.1cm}
+            
+            \item{Gaming (Open Arena) conducted during Even semester event 2013
+by LCC SJCE.}
+            %\vspace{-.1cm}
+        \end{itemize}
+    }
+    \vspace{-.1cm}
+    
+    \item{Secured other prizes in the following competitions.
+        \begin{itemize}
+        \vspace{-.2cm}
+            \item{\textbf{Second} Place in X-Files Paper presentation contest
+conducted during Technologix'12 by CSI SJCE.}
+            
+            \item{\textbf{Finalist} (top 7 teams out of 40) in Dennis Ritchie
+'C'--coding competition at IISc by Department of Computer Science and
+Automation, 2012.}
+        \end{itemize}
+    }
+    \vspace{-.1cm}
+    
+\end{itemize}
+
+
+\begin{flushleft}
+{\LARGE{\textbf{M}}\Large{\textbf{INI}}\large{--}\LARGE{\textbf{P}}\Large{\textbf{ROJECTS}}}
+\end{flushleft}
+\vspace{-.2cm} \hrule \vspace{-.1cm}
+
+\begin{itemize}
+
+    \item{\textbf{8-bit and 16-bit Huffman
+Compressor}|\href{https://github.com/pradeep0605/HuffmanCompressor}{GitHub}|05/2011
+to 06/2011\textbf{{\Large{:}}} A Generic file compression tool based on Huffman
+Coding which uses 8-bits and 16-bits as sampling lengths for symbols.
+\textbf{C++}.} 
+    \vspace{-.1cm}
+    
+    
+    \item{\textbf{Online Coding
+Competition}|\href{https://github.com/pradeep0605/LCC-SJCE_OnlineCodingWebInterface}{GitHub}|03/2013\textbf{{\Large{:}}}
+An web interface created for conducting C--coding competitions as part of
+LCC--SJCE. \textbf{Java Servlets}.} 
+    \vspace{-.1cm}
+    
+    \item{\textbf{Self-Designed Generic
+Classes}|\href{https://github.com/pradeep0605/GenericClasses}{GitHub}|2011 to
+2012\textbf{{\Large{:}}} This project contains two of the generic classes I have
+designed: Threads and String. Both of these classes can be used similar to Java
+Threads (Extend and override run method) and Java Strings (with concatenation,
+and other operator overloading) respectively. \textbf{C++}.} 
+    \vspace{-.1cm}
+    
+    \item{\textbf{Round-Robin Schedule
+Simulator}|\href{https://github.com/pradeep0605/RoundRobinScheduleSimulator}{GitHub}|12/2011\textbf{{\Large{:}}}
+A tools which simulates the schedules of a Round Robin process scheduler.
+\textbf{C++}.} 
+    \vspace{-.1cm}    
+\end{itemize}
+\vspace{.2cm}
+
+\begin{flushleft}
+{\LARGE{\textbf{V}}\Large{\textbf{OLUNTEERING}} \large{AND}
+\LARGE{\textbf{L}}\Large{\textbf{EADERSHIP}}}
+\end{flushleft}
+\vspace{-.2cm} \hrule \vspace{-.1cm}
+
+\begin{itemize}
+    \item{A technical volunteer for LCC (Linux Campus Club)| A student body for
+promoting the use of open-source tools and technologies}
+    \vspace{-0.1cm}
+    
+    \item{Conducted technical sessions to promote use of FOSS to students from
+other departments }
+    \vspace{-0.1cm}
+    
+    \item{Have taught Computer Science courses like Digital Design, C
+Programming and Data Structures to Diploma (An associate degree) students.}
+    \vspace{-0.1cm}
+    
+    \item{Conducted three coding competitions as part of LCC's FOSS camp and
+FOSS bytes events.}
+    \vspace{-0.1cm}
+    
+    \item{Donated 20,000 INR every year to ``Hoysala Karnataka Sangha'' to aid
+under privileged children for their education.}
+    \vspace{-0.1cm}
+    
+\end{itemize}
+
+\end{large}
+\end{document}
+
