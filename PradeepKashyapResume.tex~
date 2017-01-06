@@ -143,9 +143,9 @@ I worked as Firmware Engineer on BRCM WiFi chipsets and as Linux driver develope
 
 \begin{itemize}
     \setlength\itemsep{-0.03 cm}
-    \item{\textbf{Languages}: C, C++, Java, Python.}
+    \item{\textbf{Languages}: C, C++, Java, Python, Shell Scripting.}
     
-    \item{\textbf{Technology and Software}: GDB, MySQL, HTML \& CSS, SVN/Git, Wireshark, gnuplot, dotty, ctags, cscope, , Shell Scripting, Java Servlets, \LaTeX{}.}
+    \item{\textbf{Technology and Software}: GDB, MySQL, HTML \& CSS, SVN/Git, Wireshark, gnuplot, dotty, ctags, cscope, Java Servlets, \LaTeX{}.}
     
     \item{\textbf{Operating Systems}: Unix variants, Windows.}
     %\item{\textbf{Expert}: C.}
@@ -154,7 +154,7 @@ I worked as Firmware Engineer on BRCM WiFi chipsets and as Linux driver develope
     
 \end{itemize} 
 
-\vspace{0.1cm}
+%\vspace{0.6cm}
 \hrule \vspace{-.2cm}
 \begin{center}
 \tiny{| End of Resume |}
@@ -178,7 +178,7 @@ I worked as Firmware Engineer on BRCM WiFi chipsets and as Linux driver develope
     \item{Secured $10^{th}$ rank in Bachelor's CET (Common Entrance Test) among 50,000 students (top 0.02 \%).}
 
     
-    \item{Awarded \textbf{twice} with \textit{``Award of Recognition''} in Broadcom for the contributions towards VSDB \& RSDB (Real SDB) for 4358 \& 4359 chipsets and, Ownership of ASDB (Adaptive SDB) for 4359 chipset.}
+    \item{Awarded \textbf{twice} with \textit{``Award of Recognition''} in Broadcom for the contributions towards VSDB \& RSDB for 4358 \& 4359 chipsets and, Ownership of ASDB for 4359 chipset.}
 
     
     \item{Awarded with ``FedEx International Scholar of the Year 2016'' Scholarship, Mumbai. \href{https://www.linkedin.com/pulse/bangalore-student-wins-fedex-scholarship-edu-beanz}{News link}.}
